@@ -1,9 +1,13 @@
+import Link from "next/link";
 import ProjectCard from "@/components/ProjectCard";
 import { projects } from "@/data/projects";
 import { SquareArrowOutUpRight } from "lucide-react";
 
+const MAX_VISIBLE = 4;
+
 export default function Projects() {
-  const otherProjects = projects.slice(0, 4);
+  const visibleProjects = projects.slice(0, MAX_VISIBLE);
+  const hasMore = projects.length > MAX_VISIBLE;
 
   return (
     <section id="proyectos" className="scroll-mt-20 px-10 py-25 border-t border-border">
@@ -14,13 +18,18 @@ export default function Projects() {
         Algunos de mis trabajos recientes y proyectos personales que he desarrollado.
       </h2>
 
-      <a href="#" className="flex gap-1 justify-end items-center font-mono text-sm text-accent hover:text-accent-hover">
-        Ver todos
-        <SquareArrowOutUpRight size={16} />
-      </a>
+      {hasMore && (
+        <Link
+          href="/proyectos"
+          className="flex gap-1 justify-end items-center font-mono text-xs text-accent hover:text-accent/80"
+        >
+          Ver todos
+          <SquareArrowOutUpRight size={16} />
+        </Link>
+      )}
 
       <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 my-10">
-        {otherProjects.map((project) => (
+        {visibleProjects.map((project) => (
           <ProjectCard key={project.slug} project={project} />
         ))}
       </div>

@@ -25,42 +25,10 @@ export const projects: Project[] = [
     ],
   },
   {
-    slug: "fullmarket",
-    title: "Fullmarket",
+    slug: "totalmath",
+    title: "TotalMath",
     description: "E-commerce con Django REST + React, carrito y pagos.",
     tech: ["Django REST", "React", "PostgreSQL"],
-    featured: false,
-    caseStudyUrl: "/proyectos/insightbi"
-  },
-  {
-    slug: "data-warehouse",
-    title: "Data warehouse",
-    description: "Modelo estrella en SQL Server para atención al cliente.",
-    tech: ["SQL Server"],
-    featured: false,
-    caseStudyUrl: "/proyectos/insightbi"
-  },
-  {
-    slug: "data-warehouse-2",
-    title: "Data warehouse 2",
-    description: "Modelo estrella en SQL Server para ventas.",  
-    tech: ["SQL Server"],
-    featured: false,
-    caseStudyUrl: "/proyectos/insightbi"
-  },
-  {
-    slug: "data-warehouse-3",
-    title: "Data warehouse 3",
-    description: "Modelo estrella en SQL Server para inventario.",
-    tech: ["SQL Server"],
-    featured: false,
-    caseStudyUrl: "/proyectos/insightbi"
-  },
-  {
-    slug: "data-warehouse-4",
-    title: "Data warehouse 4",
-    description: "Modelo estrella en SQL Server para compras.",
-    tech: ["SQL Server"],
     featured: false,
     caseStudyUrl: "/proyectos/insightbi"
   },

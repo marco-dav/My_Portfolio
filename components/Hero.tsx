@@ -5,7 +5,7 @@ import { FolderGit2, FileText } from "lucide-react";
 
 export default function Hero() {
   return (
-    <section id="inicio" className="scroll-mt-20 p-10 md:flex md:items-center md:gap-10 md:px-10 md:py-16">
+    <section id="inicio" className="scroll-mt-20 p-10 lg:flex md:items-center md:gap-10 md:px-10 md:py-16">
       <div className="md:flex-1">
         <p className="font-mono text-accent mb-2 border border-accent p-1 rounded-xl w-fit px-3">
           Desarrollador de Datos & BI
@@ -31,19 +31,18 @@ export default function Hero() {
 
       </div>
 
-      <div className="relative mt-10 md:mt-0 md:flex-1 flex justify-center">
+      <div className="relative mt-10 md:mt-0 md:flex-1 flex justify-center items-center">
         <div className="absolute w-56 h-56 bg-accent/20 rounded-full blur-3xl" />
-        <div className="relative w-4xl h-128">
+        <div className="relative w-full h-100">
           <Image
             src="/photo.png"
             alt="Foto de Marco Arteaga"
             fill
-            sizes="1028px"
             className="object-contain"
             priority
           />
         </div>
-        <div className="absolute bottom-40 right-10 bg-badge-bg border border-badge-border rounded-xl px-3 py-2.5 animate-float">
+        <div className="absolute bottom-0 md:bottom-20 md:right-10 bg-badge-bg border border-badge-border rounded-xl px-3 py-2.5 animate-float">
           <p className="font-mono text-xs text-text-muted leading-relaxed">
             const <span className="text-accent">dev</span> = {"{"}
             <br />
