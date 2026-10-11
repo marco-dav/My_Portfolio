@@ -35,9 +35,10 @@ export default function Hero() {
         <div className="absolute w-56 h-56 bg-accent/20 rounded-full blur-3xl" />
         <div className="relative w-full h-100">
           <Image
-            src="/photo.png"
+            src="/marco.png"
             alt="Foto de Marco Arteaga"
             fill
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             className="object-contain"
             priority
           />
