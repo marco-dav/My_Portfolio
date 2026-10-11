@@ -16,7 +16,7 @@ const contacts = [
 export default function ContactSection() {
   return (
     <section id="contacto" className="scroll-mt-20 py-40 px-10 border-t sm:flex items-center border-border md:grid md:grid-cols-[0.8fr_1.2fr]">
-      <div className="md:col-span-1">
+      <div className="md:col-span-1 mr-5">
         <p className="font-mono text-md tracking-wide text-accent mb-1.5">
           contacto
         </p>
@@ -28,7 +28,7 @@ export default function ContactSection() {
       </div>
 
       <div className="md:col-span-1">
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-4">
+        <div className="grid lg:grid-cols-3 md:grid-cols-1 gap-3 mb-4">
           {contacts.map(({ icon: Icon, label, value, href }) => (
             <a
               key={label}

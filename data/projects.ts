@@ -36,9 +36,10 @@ export const projects: Project[] = [
   {
     slug: "totalmath",
     title: "TotalMath",
-    description: "Aplicación de matemáticas desarrollada en Python. Permite resolver y visualizar problemas de álgebra, cálculo, sistemas lineales, modelos epidemiológicos y más.",
+    description: "Aplicación de matemáticas que permite resolver y visualizar problemas de álgebra, cálculo, sistemas lineales, y más.",
     tech: ["Python", "CustomTkinter", "Matplotlib", "NumPy", "Pandas"],
     featured: false,
+    repoUrl: "https://github.com/marco-unemi/Calculadora.git",
     caseStudyUrl: "https://github.com/marco-unemi/Calculadora.git"
   },
 ];

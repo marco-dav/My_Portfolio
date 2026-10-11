@@ -22,7 +22,7 @@ const traits = [
 export default function About() {
   return (
     <section id="sobre-mi" className="scroll-mt-20 px-10 py-30 border-t sm:flex items-center border-border md:grid md:grid-cols-[0.8fr_1.2fr]">
-      <div className="md:col-span-1">
+      <div className="md:col-span-1 mr-5">
         <p className="font-mono text-md tracking-wide text-accent mb-1.5">
           sobre mí
         </p>
@@ -37,7 +37,7 @@ export default function About() {
       </div>
 
       <div className="md:col-span-1">
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+        <div className="grid lg:grid-cols-3 md:grid-cols-1 gap-3">
           {traits.map(({ icon: Icon, title, description }) => (
             <div
               key={title}
