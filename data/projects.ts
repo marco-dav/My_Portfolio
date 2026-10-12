@@ -17,8 +17,7 @@ export const projects: Project[] = [
       "BI conversacional con NL2SQL: preguntas en lenguaje natural, SQL validado y dashboards en tiempo real.",
     tech: ["FastAPI", "Next.js", "PostgreSQL", "SQL Server", "AWS"],
     featured: true,
-    repoUrl: "https://github.com/marco-unemi/InsightBI",
-    caseStudyUrl: "/proyectos/insightbi",
+    caseStudyUrl: "/projects/insightbi/",
     stats: [
       { label: "registros", value: "94.970" },
       { label: "cobertura SQL Guard", value: "97%" },
@@ -30,8 +29,7 @@ export const projects: Project[] = [
     description: "Simulación de un CRUD de ventas con Python. Permite crear, leer, actualizar y eliminar registros de clientes, productos y ventas.",
     tech: ["Python"],
     featured: false,
-    repoUrl: "https://github.com/marco-unemi/Ventas_Python",
-    caseStudyUrl: "https://github.com/marco-unemi/Ventas_Python"
+    repoUrl: "https://github.com/marco-unemi/Ventas_Python"
   },
   {
     slug: "totalmath",
@@ -39,7 +37,6 @@ export const projects: Project[] = [
     description: "Aplicación de matemáticas que permite resolver y visualizar problemas de álgebra, cálculo, sistemas lineales, y más.",
     tech: ["Python", "CustomTkinter", "Matplotlib", "NumPy", "Pandas"],
     featured: false,
-    repoUrl: "https://github.com/marco-unemi/Calculadora.git",
-    caseStudyUrl: "https://github.com/marco-unemi/Calculadora.git"
+    repoUrl: "https://github.com/marco-unemi/Calculadora.git"
   },
 ];

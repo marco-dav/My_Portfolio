@@ -20,7 +20,7 @@ export default function Projects() {
 
       {hasMore && (
         <Link
-          href="/proyectos"
+          href="/projects"
           className="flex gap-1 justify-end items-center font-mono text-xs text-accent hover:text-accent/80"
         >
           Ver todos

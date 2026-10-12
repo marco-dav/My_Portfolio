@@ -46,7 +46,7 @@ export const certificates: Certificate[] = [
     title: "Excel",
     issuer: "Santander Open Academy",
     date: "Septiembre 2026",
-    url: "https://1drv.ms/b/c/8349c7efcd090f84/IQB-XhC9F9roQ6HU74DGZx1wAVcbXlfsuN3VTqub1ecGncU?e=hx4J9a",
+    url: "https://marco-arteaga.vercel.app/CERTIFICADOS/excel-santander.pdf",
     previewUrl: "/CERTIFICADOS/excel-santander.pdf",
   },
 ];

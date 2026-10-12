@@ -1,6 +1,8 @@
+import Link from "next/link";
 import { Project } from "@/data/projects";
 import Image from "next/image";
-import { SquareArrowOutUpRight } from "lucide-react";
+import { SquareArrowOutUpRight, ArrowRight } from "lucide-react";
+import { SiGithub } from "react-icons/si";
 
 
 type ProjectCardProps = {
@@ -47,12 +49,31 @@ export default function ProjectCard({ project }: ProjectCardProps) {
         ))}
       </div>
 
-      {project.caseStudyUrl && (
-        <a href={project.caseStudyUrl} className="flex justify-end items-center gap-1 pt-3 font-body text-sm font-medium text-accent">
-          Ver caso de estudio
-          <SquareArrowOutUpRight size={16} />
-        </a>  
+      {(project.repoUrl || project.caseStudyUrl) && (
+        <div className="mt-4 flex flex-wrap items-center justify-end gap-x-4 gap-y-2">
+          {project.repoUrl && (
+            <Link 
+              href={project.repoUrl} 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="flex items-center gap-1 font-body text-sm font-medium text-accent"
+            >
+              Ver código
+              <SquareArrowOutUpRight size={14} />
+            </Link>
+          )}
+          {project.caseStudyUrl && (
+            <Link
+              href={project.caseStudyUrl}
+              className="flex items-center gap-1.5 font-body text-sm font-medium text-accent"
+            >
+              Ver caso de estudio
+              <SquareArrowOutUpRight size={14} />
+            </Link>
+          )}
+        </div>
       )}
+
     </div>
   );
 }

@@ -11,6 +11,9 @@
   --color-tag-bg: #1A1C20;
   --color-badge-bg: #0E1B33;
   --color-badge-border: #1E3A66;
+  --color-text-soft: #B5B8BD;
+  --color-accent-light: #5B9BFF;
+  --color-border-strong: #3A3E44;
 
   --font-display: var(--font-space-grotesk), sans-serif;
   --font-body: var(--font-inter), sans-serif;
