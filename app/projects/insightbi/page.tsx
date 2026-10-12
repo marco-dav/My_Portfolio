@@ -29,17 +29,17 @@ const stats = [
 
 const screenshots = [
   {
-    src: "/projects/insightbi.png",
+    src: "/PROJECTS/insightbi.png",
     alt: "Dashboard de InsightBI con widgets de análisis de ventas",
     caption: "Dashboard con widgets",
   },
   {
-    src: "/projects/insightbi-ETL.png",
+    src: "/PROJECTS/insightbi-ETL.png",
     alt: "Panel del ETL de InsightBI mostrando el progreso de la carga",
     caption: "Carga de datos con ETL",
   },
   {
-    src: "/projects/insightbi-AI.png",
+    src: "/PROJECTS/insightbi-AI.png",
     alt: "Asistente de InsightBI respondiendo con un gráfico de líneas la pregunta sobre el total de ventas por trimestre de 2025",
     caption: "Asistente conversacional con NL2SQL",
     tall: true,
@@ -269,12 +269,12 @@ export default function InsightBICaseStudy() {
           <SectionHeading label="02 — capas" title="Arquitectura" />
 
           <figure
-            key='/projects/insightbi-architecture.svg'
+            key='/PROJECTS/insightbi-architecture.svg'
             className="block overflow-hidden m-4 pb-4"
           >
             <div className="flex relative aspect-video items-center justify-center rounded-2xl border border-dashed border-border-strong p-5">
               <Image
-                src="/projects/insightbi-architecture.svg"
+                src="/PROJECTS/insightbi-architecture.svg"
                 alt="Arquitectura de InsightBI"
                 fill
                 sizes="(min-width: 1028px) 60vw, 100vw"
