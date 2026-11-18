@@ -24,19 +24,19 @@ export const projects: Project[] = [
     ],
   },
   {
-    slug: "ventas-python",
-    title: "Ventas Python",
-    description: "Simulación de un CRUD de ventas con Python. Permite crear, leer, actualizar y eliminar registros de clientes, productos y ventas.",
-    tech: ["Python"],
+    slug: "hr-adventureworks",
+    title: "HR AdventureWorks",
+    description: "DataMart de Human Resources de AdventureWorks para análisis de recursos humanos.",
+    tech: ["SQL Server", "Visual Studio", "SSIS", "SSAS", "Power BI"],
     featured: false,
-    repoUrl: "https://github.com/marco-unemi/Ventas_Python"
+    repoUrl: "https://github.com/marco-dav/DW_HR_AdventureWorks.git"
   },
-  {
-    slug: "totalmath",
-    title: "TotalMath",
-    description: "Aplicación de matemáticas que permite resolver y visualizar problemas de álgebra, cálculo, sistemas lineales, y más.",
-    tech: ["Python", "CustomTkinter", "Matplotlib", "NumPy", "Pandas"],
-    featured: false,
-    repoUrl: "https://github.com/marco-unemi/Calculadora.git"
-  },
+  // {
+  //   slug: "totalmath",
+  //   title: "TotalMath",
+  //   description: "Aplicación de matemáticas que permite resolver y visualizar problemas de álgebra, cálculo, sistemas lineales, y más.",
+  //   tech: ["Python", "CustomTkinter", "Matplotlib", "NumPy", "Pandas"],
+  //   featured: false,
+  //   repoUrl: "https://github.com/marco-unemi/Calculadora.git"
+  // },
 ];

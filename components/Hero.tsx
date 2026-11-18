@@ -8,7 +8,7 @@ export default function Hero() {
     <section id="inicio" className="scroll-mt-20 p-10 lg:flex md:items-center md:gap-10 md:px-10 md:py-16">
       <div className="md:flex-1">
         <p className="font-mono text-accent mb-2 border border-accent p-1 rounded-xl w-fit px-3">
-          Desarrollador de Datos & BI
+          Analista de Datos & Bases de Datos
         </p>
 
         <h1 className="text-2xl md:text-4xl text-text mb-2 leading-tight">
